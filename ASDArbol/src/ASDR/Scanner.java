@@ -11,7 +11,7 @@ public class Scanner {
     private static final Map<String, TipoToken> palabrasReservadas;
     static {
         palabrasReservadas = new HashMap<>();
-        palabrasReservadas.put("select", TipoToken.SELECT);
+         palabrasReservadas.put("select", TipoToken.SELECT);
         palabrasReservadas.put("from", TipoToken.FROM);
         palabrasReservadas.put("distinct", TipoToken.DISTINCT);
     }
