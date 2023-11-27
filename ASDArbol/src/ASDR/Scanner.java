@@ -7,7 +7,7 @@ public class Scanner {
     private final String source;
 
     private final List<Token> tokens = new ArrayList<>();
-
+ 
     private static final Map<String, TipoToken> palabrasReservadas;
     static {
         palabrasReservadas = new HashMap<>();
