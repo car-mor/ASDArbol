@@ -14,7 +14,7 @@ public class Scanner {
         palabrasReservadas.put("select", TipoToken.SELECT);
         palabrasReservadas.put("from", TipoToken.FROM);
         palabrasReservadas.put("distinct", TipoToken.DISTINCT);
-    }
+     }
 
     Scanner(String source){
         this.source = source + " ";
