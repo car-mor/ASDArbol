@@ -1,3 +1,6 @@
+import ASDR.TipoToken;
+import ASDR.Token;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -10,7 +13,7 @@ public class Scanner {
 
     private static final Map<String, TipoToken> palabrasReservadas;
     static {
-        palabrasReservadas = new HashMap<>();
+        palabrasReservadas = new  HashMap<>();
         palabrasReservadas.put("select", TipoToken.SELECT);
         palabrasReservadas.put("from", TipoToken.FROM);
         palabrasReservadas.put("distinct", TipoToken.DISTINCT);
