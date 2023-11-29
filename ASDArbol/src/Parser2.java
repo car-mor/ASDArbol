@@ -3,8 +3,6 @@ package mx.ipn.escom.k.parser;
 import ASDR.TipoToken;
 import ASDR.Token;
 import mx.ipn.escom.k.exception.ParserException;
-//import ASDR.TipoToken;
-//import mx.ipn.escom.k.tools.Token;
 
 import java.util.List;
 
